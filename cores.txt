@@ -1,0 +1,3 @@
+background- hsl(229, 67%, 5%)
+purple- hsl(262, 100%, 58%)
+blue- hsl(212, 94%, 31%)
