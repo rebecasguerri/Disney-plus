@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo/logo63x35header.png" alt="logo-disney">
-        <input type="button" value="Entrar" id="btn-login">
+    <header class="header-box flex ">
+        <img src="images/logo/logo63x35header.png" alt="logo-disney" id="logo">
+        <input type="button" value="Entrar" id="btn-login" class="border-raidius">
     </header>
     <main>
         <section class="background-header">
@@ -22,12 +22,11 @@
                 <img src="images/logo/logo 276x150.png" alt="logo-disney">
                 </picture>
                 <input type="button" value="ESCOLHA SEU PLANO" id="btn-plan">
-                
             </div>
         </section>
         <section class="plan-main">
             <h3>Escolha seu plano</h3>
-           <section>
+           <section class="flex-wrap">
             <div class="plan-box">
                 <picture>
                     <source media="(max-width:768px)" srcset="images/combos/combos291x83/disneypuro.png">
@@ -74,7 +73,7 @@
                 <h2>Originais Disney+ exclusivos</h2>
                 <p>Só no Disney+ você vê os melhores filmes, séries, curtas e outros conteúdos inéditos.</p>
             </article>
-            <div class="originais-grid">
+            <div class="originais-movies flex-wrap">
                 <picture class="originais-border">
                     <source media="(max-width: 768px )" srcset="images/originais filmes/162x97/the beates get back.jpeg">
                     <img src="images/originais filmes/630x378/the beates get back.jfif" alt="">
@@ -126,7 +125,7 @@
         </section>
         <section class="dispos-box">
             <h1>Disponível nos seus dispositivos favoritos</h1>
-            <div class="dispos-grid">
+            <div class="dispos-area flex-wrap">
                 <div class="dispos">
                     <picture>
                         <source media="(max-width: 768px )" srcset="images/dispositivos/dispositivos 162x81/celular.png">
@@ -273,7 +272,6 @@
             <span>
                 Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20</span>
         </div>
-
     </footer>
 </body>
 </html>
