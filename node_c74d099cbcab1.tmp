@@ -106,14 +106,16 @@ body{
     flex-wrap: wrap;
 }
 .bck-popular{
- 
+   background-image: url(images/combos/colorido.png);
+   background-repeat: no-repeat;
+   background-position: center;
 }
 .plan-box{
-    width: 20vw;
+    width: 33.3%;
     text-align: center;
     height: 20vw;
     margin: 0 0 1rem 0;
-    padding: 6rem 4.4rem 0;
+    padding: 60px 44px 0;
 }
 .plan-box h2{
     margin-bottom: 0.8rem;
@@ -133,13 +135,7 @@ body{
     margin: 2rem 0 2rem 0;
 }
 
-.woyw-box{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4rem;
-    height: 100vh;
-}
+
 
 
 

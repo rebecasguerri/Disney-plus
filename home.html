@@ -18,22 +18,25 @@
             <div class="txt-apr">
                 <h3>As melhores histórias um só lugar</h3>
                 <picture>
-                <source media="(max-width: 768px )" srcset="images/logo/logo180x93.png">
-                <img src="images/logo/logo 276x150.png" alt="logo-disney">
+                  <source media="(max-width: 768px )" 
+                  srcset="images/logo/logo180x93. png">
+                  <img src="images/logo/logo 276x150.png" alt="logo-disney">
                 </picture>
                 <input type="button" value="ESCOLHA SEU PLANO" id="btn-plan">
             </div>
         </section>
         <section class="plan-main">
             <h3>Escolha seu plano</h3>
-           <section class="flex-wrap">
+           <section class="all-plans">
             <div class="plan-box">
                 <picture>
                     <source media="(max-width:768px)" srcset="images/combos/combos291x83/disneypuro.png">
                     <img src="images/combos/combos420x120/disneypuro.png" alt="logo-disney">
                 </picture>
-                <h2>R$ 27,90/mês*</h2>
-                <p>No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.</p>
+                <article class="art-plan">
+                    <h2>R$ 27,90/mês*</h2>
+                    <p>No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.</p>
+                </article>
                 <input type="button" value="ASSINE AGORA" class="bnt-assine">
             </div>
             <div class="plan-box bck-popular">
@@ -41,27 +44,31 @@
                     <source media="(max-width:768px)" srcset="images/combos/combos291x83/disney+starplus.png">
                     <img src="images/combos/combos420x120/disney+starplus.png" alt="logo-disney">
                 </picture>
-                <h2>R$ 45,90/mês*</h2>
-                <p>Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
-                </p>
+                <article class="art-plan">
+                    <h2>R$ 45,90/mês*</h2>
+                    <p>Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
+                    </p>
+                </article>
                 <input type="button" value="ASSINE AGORA" class="bnt-assine">
             </div>
             <div class="plan-box ">
                 <picture>
-                    <source media="(max-width:768px)" srcset="images/combos/combos291x83/disney+starplus+starplay.png">
+                    <source media="(max-width:768px)" srcset="images/combos/combos291x83/disney+starplus+starplay.png" type="image/png">
                     <img src="images/combos/combos420x120/disney+starplus+starplay.png" alt="logo-disney">
                 </picture>
-                <h2>R$ 55,90/mês*</h2>
-                <p>Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.</p>
+                <article class="art-plan">
+                    <h2>R$ 55,90/mês*</h2>
+                    <p>Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.</p>
+                </article>
                 <input type="button" value="ASSINE AGORA" class="bnt-assine">
             </div>
            </section>
-           <p>*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>
+           <p id="plan-add">*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>
         </section>
         <section class="woyw-box">
             <picture>
                 <source media="(max-width:768px)" srcset="images/watch on your way/woyw347x278.png">
-                <img src="images/watch on your way/woyw1200x960.png" >
+                <img src="images/watch on your way/original700.png" >
             </picture>
             <article>
                 <h2>Assista do seu jeito</h2>
@@ -76,7 +83,7 @@
             <div class="originais-movies flex-wrap">
                 <picture class="originais-border">
                     <source media="(max-width: 768px )" srcset="images/originais filmes/162x97/the beates get back.jpeg">
-                    <img src="images/originais filmes/630x378/the beates get back.jfif" alt="">
+                    <img src="images/originais filmes/630x378/the beates get back.jfif" >
                 </picture>
                 <picture class="originais-border">
                     <source media="(max-width: 768px )" srcset="images/originais filmes/162x97/o livro de boba fet.jpeg">
