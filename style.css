@@ -47,19 +47,26 @@ body{
    border: 1px solid white;
    height: 3.5rem;
    text-transform: uppercase;
+   color: white;
    
 }
 #btn-login:hover{
     background-color: white;
-    color: black;
 }
 .border-raidius{
     border-radius: 0.3rem;
 }
 
-#btn-plan{
-    background-color: hsl(212, 94%, 31%);
+#btn-plan {
+    background-color: #7828ff;
     color: white;
+    width: 30rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+#btn-plan:hover{
+    background-color: #621fd6;
 }
 .bnt-assine{
     background-color: hsl(262, 100%, 58%);
@@ -79,7 +86,19 @@ body{
 #logo{
     width:  6rem;
     height: 3rem;
-    display: none;
+   
+}
+.txt-apr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    line-height: 6rem;
+    border-radius: 0.5rem;
+}
+.txt-apr h3{
+    font-size: 1.5rem;
 }
 
 .background-header{
