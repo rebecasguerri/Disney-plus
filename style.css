@@ -64,6 +64,7 @@ body{
     height: 3.5rem;
     font-size: 1.1rem;
     cursor: pointer;
+    border-radius: 0.3rem;
 }
 #btn-plan:hover{
     background-color: #621fd6;
@@ -95,7 +96,10 @@ body{
     align-items: center;
     width: 600px;
     line-height: 6rem;
-    border-radius: 0.5rem;
+    border-radius: 0.7rem;
+    position: absolute;
+    top: 13rem;
+    left: 3rem;
 }
 .txt-apr h3{
     font-size: 1.5rem;
@@ -104,6 +108,7 @@ body{
 .background-header{
     background: url(images/background/background-lg.png) no-repeat center center/cover;
     height: 100vh;
+    position: relative;
   
 }
 @media (max-width:1468px){
@@ -112,11 +117,36 @@ body{
         no-repeat center center/cover; 
     }
 }
+@media (max-width: 1024px) {
+    .txt-apr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        line-height: 6rem;
+        border-radius: 0.7rem;
+        position: absolute;
+        top: 32rem;
+        left: 13rem;
+    }
+    .all-plans {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+        height: auto;
+    }
+    
+    
+}
 
 
 /*area planos*/
-.plan-main{
-  margin-top: 2rem;
+.plan-main {
+    margin-top: 5rem;
 }
 .plan-main h3 {
     text-align: center;
@@ -129,7 +159,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 10rem;
     height: auto;
 }
 .bck-popular{
@@ -148,13 +178,14 @@ body{
     width: 300px ;
 }
 .plan-box h2 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 .plan-box p {
-    font-size: 1.1rem;
-    line-height: 25px;
+    font-size: 1.5rem;
+    line-height: 33px;
     color: rgba(255, 255, 255, 0.767);
     width: 400px;
+    margin-top: 1rem;
 }
 #plan-add{
     text-align: center;
@@ -192,14 +223,15 @@ body{
     height: 100vh;
 }
 .woyw-article {
-    width: 300px;
+    width: 600px;
+    font-size: 1.5rem;
 }
 @media(max-width:1024px){
     .woyw-box img{
         width: 425px;
     }
 }
-@media(max-width:768px){
+@media(max-width:1024px){
    
 .woyw-box{
     display: flex;
@@ -243,7 +275,59 @@ body{
     width: 500px;
 }
 
+.lion-king{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.lion-king img{
+    position: relative;
+    width: 89rem;
 
+}
+.lion-article {
+    position: absolute;
+    width: 500px;
+    right: 279px;
+    font-size: 1.5rem;
+}
+.lion-article h2{
+    margin-bottom: 1rem;
+}
+.lion-article p{
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 2rem;
+}
+@media (max-width:1024px){
+    .lion-king{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .lion-king img{
+        position: relative;
+        width: 58rem;
+    }
+    .lion-article{
+        position: absolute;
+        width: 411px;
+        right: 120px;
+        font-size: 1rem;
+    }
+    .lion-article h2{
+        margin-bottom: 1rem;
+    }
+    .lion-article p{
+        color: rgba(255, 255, 255, 0.502);
+        line-height: 1.5rem;
+    }
+
+    
+}
 
 
 
