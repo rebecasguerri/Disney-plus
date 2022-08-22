@@ -71,11 +71,11 @@ body{
 }
 .bnt-assine{
     background-color: hsl(262, 100%, 58%);
-    border: none ;
+    border: none;
     color: white;
     padding: 0.5rem;
-    height: 15%;
-    width: 200px;
+    height: 3.5rem;
+    width: 295px;
     border-radius: 0.2rem;
     font-size: 1.2rem;
 }
@@ -150,8 +150,8 @@ body{
 }
 .plan-main h3 {
     text-align: center;
-    font-size: 2rem;
-    margin: 2rem 0;
+    font-size: 3rem;
+    margin: 4rem 0;
 }
 .all-plans {
     display: flex;
@@ -163,10 +163,13 @@ body{
     height: auto;
 }
 .bck-popular{
- 
+ background-image: url(images/combos/colorido.png); 
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
 }
 .plan-box {
-    min-width: 20.2%;
+    min-width: 22.2%;
     text-align: center;
     height: auto;
     display: flex;
@@ -174,18 +177,20 @@ body{
     align-items: center;
     justify-content: center;
 }
-.plan-box img{
-    width: 300px ;
+.plan-box img {
+    width: 300px;
+    margin-top: 2rem;
 }
 .plan-box h2 {
     font-size: 1.6rem;
 }
 .plan-box p {
-    font-size: 1.5rem;
-    line-height: 33px;
-    color: rgba(255, 255, 255, 0.767);
-    width: 400px;
-    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.59);
+    width: 350px;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
 }
 #plan-add{
     text-align: center;
@@ -193,8 +198,8 @@ body{
     color: rgba(255, 255, 255, 0.522);
     margin-top: 4rem;
 }
-.art-plan{
-    margin: 2rem 0 2rem 0;
+.art-plan {
+    margin: 2rem 0 0rem 0;
 }
 
 @media(max-width:768px){
@@ -225,6 +230,12 @@ body{
 .woyw-article {
     width: 600px;
     font-size: 1.5rem;
+
+}
+.woyw-article p{
+    color: #ffffff8a;
+    font-size: 1.2rem;
+
 }
 @media(max-width:1024px){
     .woyw-box img{
@@ -246,6 +257,7 @@ body{
     width: 600px;
     text-align:center;
 }
+
 }
 
 
