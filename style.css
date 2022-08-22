@@ -382,15 +382,14 @@ body{
 
 .tv-class img{
     width: 400px;
-    margin-top: 4rem;
     
 }
  .dispos{
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 22.2%;
+    margin-top: 2rem;
     
 }
 .dispos ul{
@@ -405,6 +404,25 @@ body{
     font-size: 1.2rem;
 }
 
+
+
+
+.qstions-box h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.bnt-ask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #13151D;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    width: 40rem;
+    height: 4rem;
+    font-size: 1.5rem
+}
 
 
 
