@@ -368,16 +368,30 @@ body{
     }
  }
 .dispos-box{
-    height: auto;
+    height: 90vh;
+    margin-top: 6rem;
+    
+}
+.dispos-box h1{
+    text-align: center;
+    font-size: 2.5rem;
 }
 .dispos-box img{
-    width: 600px;
+    width: 500px;
+}
+
+.tv-class img{
+    width: 400px;
+    margin-top: 4rem;
+    
 }
  .dispos{
     display: flex;
     flex-direction: column;
     align-items: center;
+
     width: 22.2%;
+    
 }
 .dispos ul{
     text-align: center;
@@ -387,7 +401,8 @@ body{
 .dispos ul li{
     color: rgba(255, 255, 255, 0.607);
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
 }
 
 
