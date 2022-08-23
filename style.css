@@ -413,13 +413,29 @@ body{
     margin-bottom: 2rem;
 }
 .box-resp{
-    display: none;
+    display:none;
+    background:#13151D ;
+    margin-bottom: 1rem; ;
+    padding: 1rem 0 1rem 1rem;
+    line-height: 1.3rem;
+    color: rgba(255, 255, 255, 0.683);
+    width: 90vw;
+    font-size: 1.1rem;
+    transition-delay: 0.5s;
+   
+}
+.box-resp.active{
+    display: block;
+    transition-delay: 0.5s;
+    transition: all 0.5s  linear;
 }
 .box-resp ul {
-    list-style-type: none;
+  list-style-type: circle;
+  padding-left:1rem; 
+  line-height: 3rem;
+      
 }
 .bnt-ask {
-    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -436,11 +452,39 @@ body{
 .qstions-box {
     width: 100%;
     padding-left: 7rem;
+   
 }
-
+.ask-box{
+    margin-bottom: 1rem;
+}
 footer {
     margin-top: 9rem;
 }
+.plus{
+    padding-right: 0.5rem;
+}
+ .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: white;
+    
+}
+.bar:nth-child(2) {
+    transform: translateY(-7px) rotate(90deg);  
+}
+.plus.active .bar:nth-child(1){
+    display: none;
+}
+.plus.active .bar:nth-child(2){
+    transform: translateY(1px) rotate(180deg);
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*FOOTER*/
 footer img {
     margin: auto;
     display: flex;
