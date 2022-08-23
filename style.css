@@ -418,28 +418,37 @@ body{
 .box-resp ul {
     list-style-type: none;
 }
-.bnt-ask{
+.bnt-ask {
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #13151D;
-    color: white;
+    color: rgba(255, 255, 255, 0.844);
     border: none;
     border-radius: 0.2rem;
-    width: 95vw;
+    width: 90vw;
     height: 4rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 1rem;
     cursor: pointer;
 }
-.qstions-box{
-   width: 50%;
-   padding-left: 2rem;
-  
+.qstions-box {
+    width: 100%;
+    padding-left: 7rem;
 }
 
 
+footer img{
+    margin: auto;
+    display: flex;
+}
+
+.ftr-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
 
 
 
