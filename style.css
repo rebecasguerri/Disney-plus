@@ -241,7 +241,7 @@ body{
 }
 @media(max-width:1024px){
     .woyw-box img{
-        width: 425px;
+        width: 600px;
     }
 }
 @media(max-width:1024px){
@@ -376,8 +376,8 @@ body{
     text-align: center;
     font-size: 2.5rem;
 }
-.dispos-box img{
-    width: 500px;
+.dispos-box img {
+    width: 400px;
 }
 
 .tv-class img{
@@ -403,7 +403,21 @@ body{
     line-height: 1.9rem;
     font-size: 1.2rem;
 }
+@media (max-width:1024px){
+    .dispos-box img {
+        width: 300px;
+    }
+    
+    .tv-class img{
+         width: 300px;
 
+    }
+    .originais-border img {
+        display: block;
+        border-radius: 0.2rem;
+        width: 400px;
+    }
+}
 
 
 
@@ -482,18 +496,28 @@ footer {
     transform: translateY(1px) rotate(180deg);
     transition: all 0.5s ease-in-out;
 }
+@media (max-width:1440px){
+    .qstions-box {
+        width: 100%;
+        padding-left: 4rem;
+        margin: auto;
+    }
+}
 
 
 /*FOOTER*/
+
 footer img {
     margin: auto;
     display: flex;
     width: 7rem;
 }
-.footer-lists{
-    line-height: 4rem;
+.footer-lists {
+    line-height: 3rem;
     color: rgba(255, 255, 255, 0.67);
-    
+    width: 90vw;
+    text-align: center;
+    margin: auto;
 }
 footer{
     text-align: center;
@@ -502,6 +526,7 @@ footer{
 .txt-footer {
     line-height: 2rem;
     font-size: 13px;
+  
 }
 .ftr-list{
     display: flex;
@@ -518,7 +543,18 @@ footer ul li a{
 footer ul li a:hover{
     color: rgba(255, 255, 255, 0.93);
 }
-
+@media (max-width:1024px){
+    .ftr-list {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    .txt-footer {
+        line-height: 1.5rem;
+        font-size: 13px;
+    }
+}
 
 
 
