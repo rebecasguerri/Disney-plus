@@ -438,16 +438,41 @@ body{
     padding-left: 7rem;
 }
 
-
-footer img{
+footer {
+    margin-top: 9rem;
+}
+footer img {
     margin: auto;
     display: flex;
+    width: 7rem;
 }
-
+.footer-lists{
+    line-height: 4rem;
+    color: rgba(255, 255, 255, 0.67);
+    
+}
+footer{
+    text-align: center;
+    height: 30vh;
+}
+.txt-footer {
+    line-height: 2rem;
+    font-size: 13px;
+}
 .ftr-list{
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    justify-content: center;
+    
+}
+footer ul li a{
+    color: rgba(255, 255, 255, 0.645);
+    text-decoration: none;
+    font-size: 13px;
+}
+footer ul li a:hover{
+    color: rgba(255, 255, 255, 0.93);
 }
 
 
