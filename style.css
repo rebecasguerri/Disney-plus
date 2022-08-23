@@ -82,6 +82,17 @@ body{
 .bnt-assine:hover{
     background-color: hsl(262, 79%, 46%);
 }
+@media (max-width:425px){
+    #btn-plan {
+        background-color: #7828ff;
+        color: white;
+        width: 20rem;
+        height: 3.5rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+        border-radius: 0.3rem;
+    }
+}
 
 /*header*/
 #logo{
@@ -166,6 +177,29 @@ body{
     }
    
 }
+@media (max-width: 425px){ 
+    .txt-apr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        line-height: 6rem;
+        border-radius: 0.7rem;
+        position: absolute;
+        top: 19rem;
+        left: 4rem;
+    }
+     .txt-apr h3 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .txt-apr img{ 
+    width: 200px;
+     }
+}
 
 
 /*area planos*/
@@ -236,8 +270,18 @@ body{
         gap: 4rem;
         height: auto;
     }
+    .plan-box img {
+        width: 300px;
+        margin-top: 0rem;
+    }
 }
-
+@media(max-width:425px){
+    .plan-main h3 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 4rem 0;
+    }
+ }
 
 
 
@@ -292,8 +336,19 @@ body{
         font-size: 2rem;
     }
 }
-
-
+@media(max-width:425px){ 
+    .woyw-box img {
+        width: 400px;
+    }
+    .woyw-article {
+        width: 338px;
+        text-align: center;
+    }
+    .woyw-article h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+ }
 
 .originais-movies{
     gap: 1.5rem;
@@ -331,7 +386,18 @@ body{
         line-height: 2rem;
     }
 }
-
+@media (max-width: 768px){
+    .originais-article h2 {
+     font-size: 2rem;
+     line-height: 3rem;
+    }
+    .originais-article p {
+        font-size: 1.1rem;
+        color: #ffffffa3;
+        width: 90vw;
+        line-height: 1.5rem;
+    }
+ }
 .lion-king {
     background-image: url(images/rei-leao/leao1600.png);
     background-repeat: no-repeat;
@@ -478,7 +544,16 @@ body{
         font-size: 2rem;
     }
 }
-
+@media (max-width: 425px){
+    .dispos h3 {
+        text-align: center;
+        width: 11rem;
+    }
+    .dispos ul{
+        width: 11rem;
+    
+    }
+}
 
 
 .qstions-box h2{
@@ -576,8 +651,33 @@ footer {
         font-size: 2rem;
      }
 }
-
-
+@media (max-width: 425px){ 
+    .qstions-box {
+        width: 100%;
+        padding-left: 1.5rem;
+        margin: auto;
+    }
+    .bnt-ask {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #13151D;
+        color: rgba(255, 255, 255, 0.844);
+        border: none;
+        border-radius: 0.2rem;
+        width: 90vw;
+        height: 4rem;
+        font-size: 1rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        text-align: left;
+    }
+    .btn-ask p{
+        width: 86%;
+        line-height: 1.5rem;
+    
+    }
+ }
 /*FOOTER*/
 
 footer img {
