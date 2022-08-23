@@ -93,6 +93,17 @@ body{
         border-radius: 0.3rem;
     }
 }
+@media (max-width:320px){
+    #btn-plan {
+        background-color: #7828ff;
+        color: white;
+        width: 18rem;
+        height: 3.5rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+        border-radius: 0.3rem;
+    }
+}
 
 /*header*/
 #logo{
@@ -214,6 +225,32 @@ body{
         left: 4rem;
     }
  }
+ @media (max-width: 320px){ 
+    .txt-apr h3 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .bck-popular {
+        background-image: url(images/combos/colorido310.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .txt-apr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 61vw;
+        line-height: 6rem;
+        border-radius: 0.7rem;
+        position: absolute;
+        top: 19rem;
+        left: 4rem;
+    }
+}
 
 /*area planos*/
 .plan-main {
@@ -295,7 +332,26 @@ body{
         margin: 4rem 0;
     }
  }
-
+ @media(max-width:320px){
+    .plan-box p {
+        font-size: 1.2rem;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.59);
+        width: 315px;
+        margin-top: 0.2rem;
+        margin-bottom: 0rem;
+    }
+     .bnt-assine {
+        background-color: hsl(262, 100%, 58%);
+        border: none;
+        color: white;
+        padding: 0.5rem;
+        height: 3.5rem;
+        width: 280px;
+        border-radius: 0.2rem;
+        font-size: 1.2rem;
+    }
+}
 
 
 
@@ -367,6 +423,15 @@ body{
         width: 350px;
     } 
  }
+ @media (max-width: 320px){ 
+    .woyw-box img {
+         width: 300px;
+     }
+     .woyw-article {
+        width: 290px;
+        text-align: center;
+    }
+}
 
 .originais-movies{
     gap: 1.5rem;
@@ -433,6 +498,25 @@ body{
     }
  }
 
+ @media (max-width: 320px){ 
+    .originais-border img {
+        display: block;
+        border-radius: 0.2rem;
+        width: 300px;
+    }
+
+    .originais-article h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+     .originais-article p {
+        font-size: 1.1rem;
+        color: #ffffffa3;
+        width: 90vw;
+        line-height: 1.6rem;
+    }
+   
+}
 
 
 
