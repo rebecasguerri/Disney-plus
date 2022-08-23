@@ -289,15 +289,15 @@ body{
     width: 500px;
 }
 
-.lion-king{
-    background-image: url(images/rei-leao/leao1600.png) ;
+.lion-king {
+    background-image: url(images/rei-leao/leao1600.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: auto;
     height: 100vh;
     margin: 0 2rem;
-   
+    margin-top: 8rem;
 }
 .lion-king img{
     position: relative;
