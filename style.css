@@ -109,13 +109,8 @@ body{
     background: url(images/background/background-lg.png) no-repeat center center/cover;
     height: 100vh;
     position: relative;
+    width: 100vw;
   
-}
-@media (max-width:1468px){
-    .background-header{
-        background: url(images/background/background-1300.png)
-        no-repeat center center/cover; 
-    }
 }
 @media (max-width: 1024px) {
     .txt-apr {
@@ -141,6 +136,35 @@ body{
     }
     
     
+}
+@media (max-width:1468px){
+    .background-header{
+        background: url(images/background/background-1300.png)
+        no-repeat center center/cover; 
+        width: 100vw;
+    }
+}
+@media (max-width: 768px){
+    .background-header {
+        background: url(images/background/background-md.jfif) no-repeat top center/cover;
+        width: 100%;
+    }
+ }
+
+@media (max-width: 768px){ 
+    .txt-apr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        line-height: 6rem;
+        border-radius: 0.7rem;
+        position: absolute;
+        top: 24rem;
+        left: 6rem;
+    }
+   
 }
 
 
@@ -239,27 +263,34 @@ body{
     font-size: 1.3rem;
     line-height: 1.9rem;
 }
+
 @media(max-width:1024px){
     .woyw-box img{
         width: 600px;
     }
-}
-@media(max-width:1024px){
-   
-.woyw-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    padding: 0 1rem;
-    height: 100vh;
-}
-.woyw-article {
-    width: 600px;
-    text-align:center;
+    .woyw-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 1rem;
+        height: 100vh;
+    }
+    .woyw-article {
+        width: 600px;
+        text-align:center;
+    }
+
 }
 
+@media(max-width:768px){
+    .woyw-article p {
+        font-size: 1.1rem;
+    }
+    .woyw-article h2{
+        font-size: 2rem;
+    }
 }
 
 
@@ -287,6 +318,18 @@ body{
     display: block;
     border-radius: 0.2rem;
     width: 500px;
+}
+
+@media (max-width: 768px){
+    .originais-article h2 {
+        font-size: 2rem;
+    }
+    .originais-article p {
+        font-size: 1.2rem;
+        color: #ffffffa3;
+        width: 90vw;
+        line-height: 2rem;
+    }
 }
 
 .lion-king {
@@ -418,6 +461,23 @@ body{
         width: 400px;
     }
 }
+@media (max-width: 768px){ 
+    .dispos-box img {
+        width: 200px;
+    }
+     .dispos-box {
+        height: auto;
+        margin: 6rem 0;
+    }
+    .dispos-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .dispos-box h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
 
 
 
@@ -503,6 +563,19 @@ footer {
         margin: auto;
     }
 }
+@media (max-width: 768px){ 
+    .qstions-box {
+        width: 100%;
+        padding-left: 2.5rem;
+        margin: auto;
+     }
+     .bnt-ask{
+        font-size: 1rem;
+     }
+     .qstions-box h2{
+        font-size: 2rem;
+     }
+}
 
 
 /*FOOTER*/
@@ -548,14 +621,30 @@ footer ul li a:hover{
         display: flex;
         flex-direction: row;
         gap: 0.5rem;
+        flex-wrap: wrap;
         justify-content: center;
     }
     .txt-footer {
         line-height: 1.5rem;
         font-size: 13px;
+        margin-top: 1rem;
     }
 }
 
+@media (max-width:768px){
+    .footer-lists {
+        line-height: 1rem;
+       
+    }
+    .ftr-list{
+        margin: 1rem 0;
+    }
+    
+    footer ul li a{
+        margin-left: 0.5rem;
+    
+    }
+}
 
 
 
