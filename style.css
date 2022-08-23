@@ -200,7 +200,20 @@ body{
     width: 200px;
      }
 }
-
+@media (max-width: 375px){ 
+    .txt-apr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 69vw;
+        line-height: 6rem;
+        border-radius: 0.7rem;
+        position: absolute;
+        top: 19rem;
+        left: 4rem;
+    }
+ }
 
 /*area planos*/
 .plan-main {
@@ -349,6 +362,11 @@ body{
         margin-bottom: 1rem;
     }
  }
+ @media (max-width: 375px){ 
+    .woyw-box img {
+        width: 350px;
+    } 
+ }
 
 .originais-movies{
     gap: 1.5rem;
@@ -374,19 +392,18 @@ body{
     border-radius: 0.2rem;
     width: 500px;
 }
+@media (max-width: 768px){
+    .originais-border img {
+        display: block;
+        border-radius: 0.2rem;
+        width: 400px;
+    }
+}
 
 @media (max-width: 768px){
     .originais-article h2 {
         font-size: 2rem;
     }
-    .originais-article p {
-        font-size: 1.2rem;
-        color: #ffffffa3;
-        width: 90vw;
-        line-height: 2rem;
-    }
-}
-@media (max-width: 768px){
     .originais-article h2 {
      font-size: 2rem;
      line-height: 3rem;
@@ -398,6 +415,31 @@ body{
         line-height: 1.5rem;
     }
  }
+ @media (max-width: 375px){ 
+    .originais-border img {
+        display: block;
+        border-radius: 0.2rem;
+        width: 350px;
+    }
+    .originais-article h2 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .originais-article p {
+        font-size: 1.2rem;
+        color: #ffffffa3;
+        width: 89vw;
+        line-height: 1.6rem;
+    }
+ }
+
+
+
+
+
+
+
+
 .lion-king {
     background-image: url(images/rei-leao/leao1600.png);
     background-repeat: no-repeat;
@@ -521,11 +563,7 @@ body{
          width: 300px;
 
     }
-    .originais-border img {
-        display: block;
-        border-radius: 0.2rem;
-        width: 400px;
-    }
+   
 }
 @media (max-width: 768px){ 
     .dispos-box img {
