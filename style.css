@@ -131,7 +131,7 @@ body{
     background: url(images/background/background-lg.png) no-repeat center center/cover;
     height: 100vh;
     position: relative;
-    width: 100vw;
+    width: 99vw;
   
 }
 @media (max-width: 1024px) {
@@ -523,83 +523,109 @@ body{
 
 
 
-
-.lion-king {
-    background-image: url(images/rei-leao/leao1600.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: auto;
+.lion-king{
+    margin-top: 3rem;
+    width: 99vw;
     height: 100vh;
-    margin: 0 2rem;
-    margin-top: 8rem;
+    padding-left: 0.5rem;
+    
+}
+.lion-article-real{
+    position: relative;
+    top: 40vh;
+    left: 50%;
+    width: 25%;
 }
 .lion-king img{
-    position: relative;
-
-
+    margin: auto; 
+    position: absolute; 
+    padding-left: 6rem;
 }
-.lion-article {
-    position: absolute;
-    width: 500px;
-    right: 279px;
-    font-size: 1.5rem;
-}
+
 .lion-article h2{
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 .lion-article p{
     color: rgba(255, 255, 255, 0.502);
     line-height: 2rem;
+    font-size: 1.5rem;
 }
 @media (max-width:1024px){
-    .lion-king {
-        background-image: url(images/rei-leao/lea700.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: auto;
-        height: 100vh;
-        margin: 0;
+    .lion-king img{
+        margin: auto;
+        padding-left: 2rem;
     }
-
-    .lion-article{
-        position: absolute;
-        width: 411px;
-        right: 120px;
-        font-size: 1rem;
+    .lion-article-real {
+        position: relative;
+        top: 24vh;
+        left: 56%;
+        width: 35%;
     }
+   
     .lion-article h2{
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     .lion-article p{
         color: rgba(255, 255, 255, 0.502);
         line-height: 1.5rem;
+        font-size: 1rem;
     }
 
     
 }
-@media (max-width:1024px){
-    .lion-king {
-        background-image: url(images/rei-leao/reileao-pequena.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: auto;
-        height: 100vh;
-        margin: 0;
+@media (max-width:768px){
+    .lion-article-real {
+        position: relative;
+        top: 17vh;
+        left: 53%;
+        width: 37%;
     }
-
- }
- @media (max-width:700px){
     .lion-king {
-        background-image: url(images/rei-leao/reileao-pequena400.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: auto;
-        height: 100vh;
-        margin: 0;
+        margin-top: 3rem;
+        width: 99vw;
+        height: 70vh;
+        padding-left: 0.5rem;
+    }
+}
+@media (max-width:425px){
+    .lion-king img {
+        margin: auto;
+        padding-left: 0.2rem;
+       position: relative;
+    }
+      
+    .lion-king {
+        margin-top: 7rem;
+        width: 99vw;
+        height: 70vh;
+        padding-left: 0.5rem;
+    }
+    .lion-article-real {
+        position: relative;
+        top: 5vh;
+        left: 0;
+        width: 98%;
+        text-align: center;
+    }
+  
+ }
+ @media (max-width:375px){
+    .lion-king img {
+        margin: auto;
+        padding-left: 2.2rem;
+    }
+ 
+    .lion-article-real {
+        width: 99%;
+    }
+ }
+
+ @media (max-width:320px){
+    .lion-king img {
+        margin: auto;
+        padding-left: 0.2rem;
     }
  }
 .dispos-box{
@@ -676,7 +702,12 @@ body{
     
     }
 }
-
+@media (max-width: 320px){
+    .dispos-box h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
 
 .qstions-box h2{
     text-align: center;
@@ -800,6 +831,14 @@ footer {
     
     }
  }
+
+ @media (max-width:320px) {
+    .qstions-box {
+        width: 100%;
+        padding-left: 1rem;
+        margin: auto;
+    }
+ }
 /*FOOTER*/
 
 footer img {
@@ -865,6 +904,16 @@ footer ul li a:hover{
     footer ul li a{
         margin-left: 0.5rem;
     
+    }
+}
+@media (max-width:320px){
+    .ftr-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3rem 0;
     }
 }
 
