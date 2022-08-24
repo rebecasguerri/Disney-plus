@@ -26,9 +26,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-.header-box{
-     padding: 1rem;
-}
 
 .center{
     display: flex;
@@ -89,11 +86,10 @@ body{
     background-color: hsl(262, 100%, 58%);
     border: none;
     color: white;
-    padding: 0.5rem;
-    height: 3.5rem;
+    padding: 1rem;
     width: 295px;
     border-radius: 0.2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .bnt-assine:hover{
     background-color: hsl(262, 79%, 46%);
@@ -122,11 +118,45 @@ body{
 }
 
 /*header*/
+
+.navbar{
+    align-items: center;
+    display: flex;
+    height: 70px;
+    left: 0;
+    justify-content: flex-end;
+    opacity: 1;
+    padding: 0 36px;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateZ(0);
+    transition: opacity .5s ease-out;
+    z-index: 4;
+
+}
 #logo{
     width:  6rem;
-    height: 3rem;
-   
+    height: 3rem; 
 }
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/*header active*/
+
+.navbar_active{
+    background:hsl(229, 68%, 5%) ;
+    justify-content: space-between;
+    transition: all  0.5s ease-in-out;
+}
+
+
+
+
+/*main*/
 .txt-apr{
     display: flex;
     flex-direction: column;
