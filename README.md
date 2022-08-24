@@ -17,6 +17,6 @@ Status: **Finalizado 😃**
 
 
 ## [Disney plus](https://rebecasguerri.github.io/Disney-plus/home.html)
-
+![ezgif com-gif-maker](https://raw.githubusercontent.com/rebecasguerri/Disney-plus/main/gif/gif.gif)
 
 visite meu perfil no [linkedin](https://www.linkedin.com/in/rebeca-freitas-16b16a232/) 💟
